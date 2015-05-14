@@ -66,24 +66,24 @@ function scrolled_menu() {
 /*-----------------------------------------------------------------------------------*/
 /*	FLEXSLIDER
 /*-----------------------------------------------------------------------------------*/
-jQuery(window).load(function(){
-	//Top Slider
-	$('.flexslider.top_slider').flexslider({
-		animation: "fade",
-		slideshowSpeed: 4000,
-		controlNav: false,
-		directionNav: true,
-		pauseOnAction: false,
-		pauseOnHover: true,
-		prevText: "",
-		nextText: ""
-	});
+// jQuery(window).load(function(){
+// 	//Top Slider
+// 	$('.flexslider.top_slider').flexslider({
+// 		animation: "fade",
+// 		slideshowSpeed: 4000,
+// 		controlNav: false,
+// 		directionNav: true,
+// 		pauseOnAction: false,
+// 		pauseOnHover: true,
+// 		prevText: "",
+// 		nextText: ""
+// 	});
 	
 	
-	$('.flexslider .flex-direction-nav a.flex-prev').prepend('<i class="fa fa-angle-left"></i>');
-	$('.flexslider .flex-direction-nav a.flex-next').prepend('<i class="fa fa-angle-right"></i>');
+// 	$('.flexslider .flex-direction-nav a.flex-prev').prepend('<i class="fa fa-angle-left"></i>');
+// 	$('.flexslider .flex-direction-nav a.flex-next').prepend('<i class="fa fa-angle-right"></i>');
 	
-});
+// });
 
 
 /*-----------------------------------------------------------------------------------*/
